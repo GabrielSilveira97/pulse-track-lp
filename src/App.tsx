@@ -1,3 +1,4 @@
+import BannerSectionComponent from "./components/layout/Banner"
 import HeroSectionComponent from "./components/layout/Hero"
 import NavbarComponent from "./components/layout/Navbar"
 import { AppSidebar } from "./components/layout/Sidebar"
@@ -17,6 +18,7 @@ const App = () => {
         </header>
         <main>
           <HeroSectionComponent/>
+          <BannerSectionComponent/>
           <SponsorSectionComponent/>
         </main>
         </SidebarProvider>
