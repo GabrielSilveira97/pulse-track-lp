@@ -5,7 +5,8 @@ import { AppSidebar } from "./components/layout/Sidebar"
 import SponsorSectionComponent from "./components/layout/Sponsors"
 import { SidebarProvider } from "./components/ui/sidebar"
 import { ThemeProvider } from "./lib/providers/ThemeProvider"
-
+import PricingSectionComponent from "./components/layout/Pricing"
+import FooterSectionComponent from "./components/layout/Footer"
 
 const App = () => {
 
@@ -20,6 +21,8 @@ const App = () => {
           <HeroSectionComponent/>
           <BannerSectionComponent/>
           <SponsorSectionComponent/>
+          <PricingSectionComponent/>
+          <FooterSectionComponent/>
         </main>
         </SidebarProvider>
     </ThemeProvider>
