@@ -10,7 +10,7 @@ export interface PricingCardProps {
 
 const PricingCard = ({ title, price, features } : PricingCardProps) => {
     return (
-        <div className="border rounded-lg p-6 shadow-lg flex flex-col justify-between h-full">
+        <div className="border rounded-lg p-6 shadow-lg flex flex-col bg-muted-foreground/10 justify-between h-full">
             <div className="text-center md:text-start">
                 <h3 className="text-xl font-semibold mb-4">{title}</h3>
                 <p className="text-2xl font-bold mb-6">{price}</p>

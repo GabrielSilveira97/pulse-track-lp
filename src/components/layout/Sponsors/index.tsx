@@ -37,7 +37,7 @@ const SponsorSectionComponent = () => {
     const [isHovered, setIsHovered] = useState(false)
 
     return (
-        <section className="flex flex-col justify-center px-4 md:px-36 py-10">
+        <section className="flex flex-col justify-center px-4 md:px-36 py-10 md:py-16">
             <div className="flex flex-col gap-1 text-center text-xl font-semibold">
                 <h1>Empresas que confiam no PulseTrack</h1>
                 <h1 >Times inovadores usam o PulseTrack para trabalhar melhor todos os dias.</h1>
