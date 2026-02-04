@@ -7,6 +7,7 @@ import { SidebarProvider } from "./components/ui/sidebar"
 import { ThemeProvider } from "./lib/providers/ThemeProvider"
 import PricingSectionComponent from "./components/layout/Pricing"
 import FooterSectionComponent from "./components/layout/Footer"
+import ResourcesSection from "./components/layout/Resources"
 
 const App = () => {
 
@@ -19,9 +20,10 @@ const App = () => {
         </header>
         <main>
           <HeroSectionComponent/>
+          <ResourcesSection/>
           <BannerSectionComponent/>
-          <SponsorSectionComponent/>
           <PricingSectionComponent/>
+          <SponsorSectionComponent/>
           <FooterSectionComponent/>
         </main>
         </SidebarProvider>

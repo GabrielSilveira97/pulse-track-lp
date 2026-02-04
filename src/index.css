@@ -121,3 +121,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/*Removedores de Scollbar*/
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
